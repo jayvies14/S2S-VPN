@@ -148,7 +148,7 @@ ping 10.10.10.11
 
 @BLDG-JP
 sudo su
-ifconfig eth0 20.20.20.20 netmask 255.255.255.0 up
+ifconfig eth0 20.20.20.12 netmask 255.255.255.0 up
 route add default gw 20.20.20.12
 ping 20.20.20.12
 
